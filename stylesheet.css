@@ -1,0 +1,44 @@
+.container {
+	box-sizing: content-box;
+	display: flex ;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: auto;
+	box-shadow: 3px 3px 10px rgb(0, 0, 0);
+	border-top: 5px solid #009578;
+	border-bottom: 5px solid #009578;
+	background: darkseagreen;
+	background-color: blue;
+	background-image:url(https://th.bing.com/th/id/R.d56775d52a34c68b11f21e4b40dc218a?rik=BRvvLt9eho5EVQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fFree-Plain-HD-Photos.jpg&ehk=dAdJlAd2pfBqxq%2b%2bPAT5qAvfCPpipC9%2fv3uI68BLGNs%3d&risl=&pid=ImgRaw&r=0);
+	
+}
+h1{
+	text-align: center;
+	background-image: url(https://th.bing.com/th/id/R.d56775d52a34c68b11f21e4b40dc218a?rik=BRvvLt9eho5EVQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fFree-Plain-HD-Photos.jpg&ehk=dAdJlAd2pfBqxq%2b%2bPAT5qAvfCPpipC9%2fv3uI68BLGNs%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.todo {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+	align-self: center;
+}
+
+.todo__value {
+	background: whitesmoke;
+	border: none;
+	outline: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	flex-grow: 1;
+}
+
+.todo:has(.todo__checkbox:checked) {
+	color: #555555;
+	background: #eeeeee;
+	text-decoration: line-through;
+	order: 1;
+}
